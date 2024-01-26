@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "hana";
+  font-weight: 300;
+  font-display: swap;
+  src: url("../font/Hana2-Light.ttf") format("ttf");
+}
+@font-face {
+  font-family: "hana";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../font/Hana2-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "hana";
+  font-weight: 500;
+  font-display: swap;
+  src: url("../font/Hana2-Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: "hana";
+  font-weight: 900;
+  font-display: swap;
+  src: url("../font/Hana2-Bold.ttf") format("ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  border: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Noto+Sans+KR:wght@100;300;500;600;700;800;900&display=swap");
+@import url("https://use.typekit.net/dzt0vzt.css");
+
+body {
+  font-family: "Crimson Text", serif;
+  color: #000;
+}
+
+.a {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.b {
+  font-family: "alibaba-sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.875px;
+}
+
+.c {
+  font-family: "Crimson Text", sans-serif;
+}
